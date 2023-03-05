@@ -4,7 +4,7 @@
 	#ifdef SP_BUILD_DLL
 		#define STARPLATINUM_API __declspec(dllexport)
 	#else 
-		#define STARPLATINUM_API __declspec(dllexport)
+		#define STARPLATINUM_API __declspec(dllimport)
 	#endif
 #else
 	#error StarPlatinum only supports Windows!

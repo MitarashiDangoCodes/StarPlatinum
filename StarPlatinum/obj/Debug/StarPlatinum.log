@@ -1,0 +1,11 @@
+﻿  Log.cpp
+D:\AI Engineering\2. Semester\EADI\StarPlatinum\StarPlatinum\src\StarPlatinum\Log.h(17,42): warning C4251: 'StarPlatinum::Log::s_CoreLogger': class 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of class 'StarPlatinum::Log'
+D:\AI Engineering\2. Semester\EADI\StarPlatinum\StarPlatinum\vendor\spdlog\include\spdlog\details\registry.h(34,31): message : see declaration of 'std::shared_ptr<spdlog::logger>'
+D:\AI Engineering\2. Semester\EADI\StarPlatinum\StarPlatinum\src\StarPlatinum\Log.h(18,42): warning C4251: 'StarPlatinum::Log::s_ClientLogger': class 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of class 'StarPlatinum::Log'
+D:\AI Engineering\2. Semester\EADI\StarPlatinum\StarPlatinum\vendor\spdlog\include\spdlog\details\registry.h(34,31): message : see declaration of 'std::shared_ptr<spdlog::logger>'
+D:\AI Engineering\2. Semester\EADI\StarPlatinum\StarPlatinum\src\StarPlatinum\Log.h(34,1): warning C4005: 'SP_ERROR': macro redefinition
+D:\Windows Kits\10\Include\10.0.22000.0\um\wingdi.h(551,1): message : see previous definition of 'SP_ERROR'
+     Creating library ..\bin-int\Debug-windows-x86_64\StarPlatinum\StarPlatinum.lib and object ..\bin-int\Debug-windows-x86_64\StarPlatinum\StarPlatinum.exp
+  StarPlatinum.vcxproj -> D:\AI Engineering\2. Semester\EADI\StarPlatinum\bin-int\Debug-windows-x86_64\StarPlatinum\StarPlatinum.dll
+D:\Programs\VS 2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(159,5): error MSB3073: The command "IF EXIST ..\bin-int\Debug-windows-x86_64\StarPlatinum\StarPlatinum.dll\ (xcopy /Q /E /Y /I ..\bin-int\Debug-windows-x86_64\StarPlatinum\StarPlatinum.dll ..\bin\Debug-windows-x86_64\Sandbox > nul) ELSE (xcopy /Q /Y /I ..\bin-int\Debug-windows-x86_64\StarPlatinum\StarPlatinum.dll ..\bin\Debug-windows-x86_64\Sandbox > nul)
+D:\Programs\VS 2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(159,5): error MSB3073: :VCEnd" exited with code 2.

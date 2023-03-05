@@ -1,0 +1,4 @@
+﻿     Creating library ..\bin-int\Debug-windows-x86_64\Sandbox\Sandbox.lib and object ..\bin-int\Debug-windows-x86_64\Sandbox\Sandbox.exp
+SandboxApp.obj : error LNK2001: unresolved external symbol "private: static class std::shared_ptr<class spdlog::logger> StarPlatinum::Log::s_CoreLogger" (?s_CoreLogger@Log@StarPlatinum@@0V?$shared_ptr@Vlogger@spdlog@@@std@@A)
+SandboxApp.obj : error LNK2001: unresolved external symbol "private: static class std::shared_ptr<class spdlog::logger> StarPlatinum::Log::s_ClientLogger" (?s_ClientLogger@Log@StarPlatinum@@0V?$shared_ptr@Vlogger@spdlog@@@std@@A)
+..\bin-int\Debug-windows-x86_64\Sandbox\Sandbox.exe : fatal error LNK1120: 2 unresolved externals
