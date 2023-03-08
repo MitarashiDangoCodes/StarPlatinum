@@ -10,13 +10,25 @@
     <ClInclude Include="src\StarPlatinum\APPLICATION.H">
       <Filter>StarPlatinum</Filter>
     </ClInclude>
+    <ClInclude Include="src\StarPlatinum\ApplicationEvent.h">
+      <Filter>StarPlatinum</Filter>
+    </ClInclude>
     <ClInclude Include="src\StarPlatinum\Core.h">
       <Filter>StarPlatinum</Filter>
     </ClInclude>
     <ClInclude Include="src\StarPlatinum\ENTRYPOINT.H">
       <Filter>StarPlatinum</Filter>
     </ClInclude>
+    <ClInclude Include="src\StarPlatinum\Event.h">
+      <Filter>StarPlatinum</Filter>
+    </ClInclude>
+    <ClInclude Include="src\StarPlatinum\KeyEvent.h">
+      <Filter>StarPlatinum</Filter>
+    </ClInclude>
     <ClInclude Include="src\StarPlatinum\Log.h">
+      <Filter>StarPlatinum</Filter>
+    </ClInclude>
+    <ClInclude Include="src\StarPlatinum\MouseEvent.h">
       <Filter>StarPlatinum</Filter>
     </ClInclude>
   </ItemGroup>
