@@ -1,3 +1,5 @@
+# Lesson 1
+
 What is the difference between git and github?
 Git is a version control system tool. Github is a platform which uses git.
 
@@ -17,3 +19,13 @@ Git has a branching and merging model
 Name known issues related to game engines (Unreal, Unity) and version control systems:
 Large file sizes
 Poor support for binary files
+
+# Lesson 3
+What is the difference between a dynamic linked library and a static library?
+	static ones are linked at compile time (bigger binaries) and dynamic ones at runtime (smaller binaries)
+
+Describe a logging system with your own words:
+	a logging system is a tool to monitor and analyze the behavioour of software applications. this is done by recording events and messages at  runtine. these logs help the developer to indentify and fix possible issues. 
+
+What is a Design Pattern?
+	design patterns are reuseable solutions to common software design problems and also improve code quality, scaleability and maintainability.
